@@ -7,8 +7,15 @@ pymongo>=4.3.3
 scikit-learn
 pyaml
 mlflow
-dagshub
 fastapi
 uvicorn
+scipy
+apache-airflow
+Jinja2
+streamlit
+requests 
+beautifulsoup4 
+python-whois 
+apache-airflow-providers-mongo
 
 # -e .

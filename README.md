@@ -156,7 +156,6 @@ FastAPI handles the model's operational tasks, including triggering model traini
 ![Training Execution](_assets/train_route_success.png)
 
 - AWS S3 bucket named 'networksecurity3' where the artifacts, model.pkl file and preprocessor.pkl file are stored.
-![](_assets/s3_buckets.png)
 ![](_assets/training_bucket.png)
 ![](_assets/artifacts.png)
 ![](_assets/final_model.png)
@@ -168,9 +167,6 @@ FastAPI handles the model's operational tasks, including triggering model traini
 ![Batch Execution](_assets/predict_route_success.png)
 
 - AWS S3 bucket named 'my-network-datasource-neeraj' where the CSV files uploaded by users to the POST /predict route are stored.
-![](_assets/s3_buckets.png)
-![](_assets/prediction_bucket.png)
-
 
 ### 3. MLOps Pipeline
 
@@ -178,7 +174,6 @@ FastAPI handles the model's operational tasks, including triggering model traini
 - MongoDB integration for data retrieval
 - Exported the processed data to a feature store for further usage.
 - Split the data into training and testing datasets, ensuring no data leakage.
-![MongoDB Data](_assets/mongodb.png)
 
 2. **Data Validation**:
    - Validated the schema to ensure all required columns are present.
@@ -201,7 +196,6 @@ FastAPI handles the model's operational tasks, including triggering model traini
     ![MLflow Experiments](_assets/mlflow_experiments.png)
     ![MLflow Artifacts](_assets/mlflow_artifacts.png)
    - MLflow experiments, models, and other artifacts are stored in a bucket named "mlflowtrackingnetwork" in an S3 bucket.
-    ![](_assets/s3_buckets.png) 
 
 ### 4. CI/CD Pipeline with GitHub Actions
 
@@ -220,7 +214,6 @@ The project leverages a robust **CI/CD pipeline** to automate the integration, d
     ![Deployment](_assets/continuous_deployment.png)
 
 - Successful Pipeline Execution:
-![CI/CD Complete](_assets/ci_cd_completed.png)
 
 ### 5. Docker Integration
 - ECR Image Management
@@ -259,7 +252,7 @@ This section provides a step-by-step guide on how to set up and run the Maliciou
 
 1. **Clone the Repository:**
    ```bash
-   https://github.com/Neeraj876/network-security-system-mlops.git
+   https://github.com/its-amann/Network-Security-Mlops-Project.git
    cd network-security-system-mlops
    ```
 2. **Install Dependencies:**

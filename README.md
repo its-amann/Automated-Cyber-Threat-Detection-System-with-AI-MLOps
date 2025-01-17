@@ -1,12 +1,12 @@
 <h1 align="center"> MLOps Solution for Network Security in Malicious URL Detection </h1>
 <p align="center">
-<a href="https://github.com/your-username/your-repo">
+<a href="https://github.com/its-amann/Network-Security-Mlops-Project">
 <img src="https://img.shields.io/github/license/its-amann/Network-Security-Mlops-Project-.svg" alt="License">
 </a>
-<a href="https://github.com/your-username/your-repo/issues">
+<a href="https://github.com/its-amann/Network-Security-Mlops-Project/issues">
 <img src="https://img.shields.io/github/issues/its-amann/Network-Security-Mlops-Project-.svg" alt="Issues">
 </a>
-<a href="https://github.com/your-username/your-repo/stargazers">
+<a href="https://github.com/its-amann/Network-Security-Mlops-Project/stargazers">
 <img src="https://img.shields.io/github/stars/its-amann/Network-Security-Mlops-Project-.svg" alt="Stars">
 </a>
 </p>

@@ -1,4 +1,5 @@
 FROM python:3.10-slim-buster
+<<<<<<< HEAD
 USER root
 RUN mkdir /app
 COPY . /app/
@@ -17,3 +18,11 @@ RUN chmod 777 start.sh
 RUN apt update -y
 ENTRYPOINT [ "/bin/sh" ]
 CMD ["start.sh"]
+=======
+WORKDIR /app
+COPY . /app/
+RUN apt update -y && apt install  awscli -y
+RUN apt-get update && pip install -r requirements.txt
+
+CMD ["python3", "app.py"]
+>>>>>>> 7a5ccbfb59f81bc5baf4aa1cc57128d5b785055c

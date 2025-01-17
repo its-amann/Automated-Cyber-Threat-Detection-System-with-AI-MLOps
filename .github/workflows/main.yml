@@ -60,9 +60,9 @@ jobs:
           IMAGE_TAG: latest
         run: |
           # Build the Docker image
-          docker build -t $ECR_LOGIN_URI/$ECR_REPOSITORY_NAME:$IMAGE_TAG .
+          docker build -t $ECR_LOGIN_URI:$IMAGE_TAG .
 
           # Push the Docker image to the public ECR repository
-          docker push $ECR_LOGIN_URI/$ECR_REPOSITORY_NAME:$IMAGE_TAG
+          docker push $ECR_LOGIN_URI:$IMAGE_TAG
           
             

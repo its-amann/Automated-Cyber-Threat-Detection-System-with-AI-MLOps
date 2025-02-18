@@ -203,9 +203,10 @@ The project leverages a robust **CI/CD pipeline** to automate the integration, d
 
 - Using AWS EC2 instance as a Self-Hosted Runner for Github Actions
   ![EC2 Runner](_assets/self_hosted_runner_aws.png)
-  ![Runner Status](_assets/self_hosted_runner.png)
 
 - Pipeline Stages:
+- ![image](https://github.com/user-attachments/assets/d9ff5d82-0096-4849-bf5e-b7ae6d045e36)
+
   - Continuous Integration:
     ![CI Stage](_assets/continuous_integration.png)
   - Continuous Delivery:
@@ -235,10 +236,12 @@ The project leverages a robust **CI/CD pipeline** to automate the integration, d
 ![DAGs List](_assets/airflow_dags.png)
 
 - Training Pipeline DAG Execution:
-![DAG Running](_assets/training_pipeline_dag_airflow.png)
+![image](https://github.com/user-attachments/assets/802c7139-3d31-44d0-b730-0e418e0a6c0f)
+
 
 - Batch Prediction DAG Execution:
-![DAG Running](_assets/batch_prediction_dag_airflow.png)
+![image](https://github.com/user-attachments/assets/0f825cd9-9668-443a-bd74-e9425af4bd7b)
+
 
 
 

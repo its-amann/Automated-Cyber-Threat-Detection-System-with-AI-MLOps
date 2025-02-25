@@ -1,4 +1,4 @@
-<h1 align="center"> Automated-Cyber-Threat-Detection-System-with-AI-MLOps </h1>
+<h1 align="center"> Automated-Cyber-Threat-Detection-System-with-AI-MLOps </h1> 
 
 This is a comprehensive, end-to-end MLOps solution designed to detect and classify malicious URLs, ensuring user safety by identifying harmful links through machine learning. The solution integrates data ingestion, model training, deployment, and continuous monitoring, delivering both real-time and batch URL safety assessments, providing an automated, scalable approach to web security.
 

@@ -1,4 +1,4 @@
-# MLOps Solution for Network Security in Malicious URL Detection
+<h1 align="center"> Automated-Cyber-Threat-Detection-System-with-AI-MLOps </h1> 
 
 This is a comprehensive, end-to-end MLOps solution designed to detect and classify malicious URLs, ensuring user safety by identifying harmful links through machine learning. The solution integrates data ingestion, model training, deployment, and continuous monitoring, delivering both real-time and batch URL safety assessments, providing an automated, scalable approach to web security.
 
@@ -156,7 +156,6 @@ FastAPI handles the model's operational tasks, including triggering model traini
 ![Training Execution](_assets/train_route_success.png)
 
 - AWS S3 bucket named 'networksecurity3' where the artifacts, model.pkl file and preprocessor.pkl file are stored.
-![](_assets/s3_buckets.png)
 ![](_assets/training_bucket.png)
 ![](_assets/artifacts.png)
 ![](_assets/final_model.png)
@@ -168,9 +167,6 @@ FastAPI handles the model's operational tasks, including triggering model traini
 ![Batch Execution](_assets/predict_route_success.png)
 
 - AWS S3 bucket named 'my-network-datasource-neeraj' where the CSV files uploaded by users to the POST /predict route are stored.
-![](_assets/s3_buckets.png)
-![](_assets/prediction_bucket.png)
-
 
 ### 3. MLOps Pipeline
 
@@ -178,7 +174,6 @@ FastAPI handles the model's operational tasks, including triggering model traini
 - MongoDB integration for data retrieval
 - Exported the processed data to a feature store for further usage.
 - Split the data into training and testing datasets, ensuring no data leakage.
-![MongoDB Data](_assets/mongodb.png)
 
 2. **Data Validation**:
    - Validated the schema to ensure all required columns are present.
@@ -201,7 +196,6 @@ FastAPI handles the model's operational tasks, including triggering model traini
     ![MLflow Experiments](_assets/mlflow_experiments.png)
     ![MLflow Artifacts](_assets/mlflow_artifacts.png)
    - MLflow experiments, models, and other artifacts are stored in a bucket named "mlflowtrackingnetwork" in an S3 bucket.
-    ![](_assets/s3_buckets.png) 
 
 ### 4. CI/CD Pipeline with GitHub Actions
 
@@ -209,9 +203,10 @@ The project leverages a robust **CI/CD pipeline** to automate the integration, d
 
 - Using AWS EC2 instance as a Self-Hosted Runner for Github Actions
   ![EC2 Runner](_assets/self_hosted_runner_aws.png)
-  ![Runner Status](_assets/self_hosted_runner.png)
 
 - Pipeline Stages:
+- ![image](https://github.com/user-attachments/assets/d9ff5d82-0096-4849-bf5e-b7ae6d045e36)
+
   - Continuous Integration:
     ![CI Stage](_assets/continuous_integration.png)
   - Continuous Delivery:
@@ -220,7 +215,6 @@ The project leverages a robust **CI/CD pipeline** to automate the integration, d
     ![Deployment](_assets/continuous_deployment.png)
 
 - Successful Pipeline Execution:
-![CI/CD Complete](_assets/ci_cd_completed.png)
 
 ### 5. Docker Integration
 - ECR Image Management
@@ -242,10 +236,12 @@ The project leverages a robust **CI/CD pipeline** to automate the integration, d
 ![DAGs List](_assets/airflow_dags.png)
 
 - Training Pipeline DAG Execution:
-![DAG Running](_assets/training_pipeline_dag_airflow.png)
+![image](https://github.com/user-attachments/assets/802c7139-3d31-44d0-b730-0e418e0a6c0f)
+
 
 - Batch Prediction DAG Execution:
-![DAG Running](_assets/batch_prediction_dag_airflow.png)
+![image](https://github.com/user-attachments/assets/0f825cd9-9668-443a-bd74-e9425af4bd7b)
+
 
 
 
@@ -259,7 +255,7 @@ This section provides a step-by-step guide on how to set up and run the Maliciou
 
 1. **Clone the Repository:**
    ```bash
-   https://github.com/Neeraj876/network-security-system-mlops.git
+   https://github.com/its-amann/Network-Security-Mlops-Project.git
    cd network-security-system-mlops
    ```
 2. **Install Dependencies:**
